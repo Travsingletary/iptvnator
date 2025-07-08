@@ -1,0 +1,3 @@
+[submodule "iptvnator"]
+	path = iptvnator
+	url = https://github.com/Travsingletary/iptvnator.git
