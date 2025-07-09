@@ -32,7 +32,10 @@
     "version": "conventional-changelog -i CHANGELOG.md -p angular -s -r 0 && git add CHANGELOG.md",
     "lint": "ng lint",
     "build-pwa": "ng build -c production --base-href /iptvnator --deploy-url /iptvnator/",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "dev-agent": "node background-agent.js",
+    "dev-assistant": "node dev-assistant.js",
+    "audit-backend": "node backend-audit-agent.js"
   },
   "dependencies": {
     "@angular-builders/jest": "17.0.0",
