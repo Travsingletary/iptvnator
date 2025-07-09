@@ -10,6 +10,7 @@ import { DataService } from '../services/data.service';
 import { HeaderComponent } from '../shared/components/header/header.component';
 import { addPlaylist } from '../state/actions';
 import { RecentPlaylistsComponent } from './recent-playlists/recent-playlists.component';
+import { SupabaseTestComponent } from '../components/supabase-test.component';
 
 @Component({
     selector: 'app-home',
@@ -21,6 +22,7 @@ import { RecentPlaylistsComponent } from './recent-playlists/recent-playlists.co
         NgIf,
         RecentPlaylistsComponent,
         TranslatePipe,
+        SupabaseTestComponent,
     ],
 })
 export class HomeComponent {
